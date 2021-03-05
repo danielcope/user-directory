@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+
+h2 {
+  font-size: 40px;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+}
+
+.userBody {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+}
+
+
+.home {
+  background-color: rgb(19, 194, 238);
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.user-section {
+  border: rgb(32, 32, 32) solid 100px;
+  border-bottom: rgb(32, 32, 32) solid 180px;
+  
+}
+
+.user {
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: underline rgb(19, 194, 238);
+  display: flex;
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+  flex-direction: column;
+}
+
+.user-info {
+  padding-left: 90px;
+  font-size: 20px;
+  display: flex;
+}
+
+/* .buttons {
+  justify-content: center;
+} */
+
+.nav-button-previous {
+  font-size: 20px;
+  font-weight: bold;
+  float:left;
+  position: relative;
+  top: 100px;
+  border: none;
+  color: aliceblue;
+  background:  rgb(32, 32, 32);
+  padding: 5px;
+}
+
+.nav-button-previous:hover {
+  cursor: pointer;
+  border: aliceblue solid 3px;
+  border-radius: 5px;
+}
+
+.nav-button-next {
+  font-size: 20px;
+  font-weight: bold;
+  float:right;
+  margin-right: 90px;
+  position: relative;
+  top: 100px;
+  border: none;
+  color: aliceblue;
+  background:  rgb(32, 32, 32);
+  padding: 5px;
+}
+
+.nav-button-next:hover {
+  cursor: pointer;
+  border: aliceblue solid 3px;
+  border-radius: 5px;
+}
+
+.movie-favs {
+  margin-top:20px;
+  font-size:20px;
+  padding-left: 90px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.movies {
+  font-weight: bold;
+}
+
+.list-items {
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.counter {
+  float: right;
+  margin-right: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
